@@ -9,13 +9,15 @@ class Kernel extends HttpKernel {
 	 *
 	 * @var array
 	 */
-	protected $middleware = [
+    protected $middleware = [
+        'App\Http\Middleware\SetLocaleMiddleware',
 		'Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode',
 		'Illuminate\Cookie\Middleware\EncryptCookies',
 		'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
 		'Illuminate\Session\Middleware\StartSession',
 		'Illuminate\View\Middleware\ShareErrorsFromSession',
-		'App\Http\Middleware\VerifyCsrfToken',
+        'App\Http\Middleware\VerifyCsrfToken',
+        'Xinax\LaravelGettext\Middleware\GettextMiddleware',
 	];
 
 	/**
