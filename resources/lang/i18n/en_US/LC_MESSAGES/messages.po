@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
-"POT-Creation-Date: 2015-05-28 07:22+0000\n"
-"PO-Revision-Date: 2015-05-28 17:05+0900\n"
+"POT-Creation-Date: 2015-05-29 16:54+0900\n"
+"PO-Revision-Date: 2015-05-29 16:54+0900\n"
 "Last-Translator: Fukuaki Takano <takanof@istyle.co.jp>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: en_US\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Poedit-SearchPath-2: Commands\n"
 "X-Poedit-SearchPath-3: ../storage/views/messages/\n"
 
-#: Http/routes.php:25
-#: ../storage/views/messages//171658b6baec060861376fb0c439a518.php:25
+#: Http/routes.php:15
+#: ../storage/views/messages//171658b6baec060861376fb0c439a518.php:15
 msgid "routes.hello_world"
 msgstr "Hello, World!"
